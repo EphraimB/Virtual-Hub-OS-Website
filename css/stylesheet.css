@@ -3,3 +3,5 @@ h1{color: white; text-align: center;}
 .Description{color: white;}
 #Hub{background-color: grey; width: 1500px; height: 750px;}
 .Status{color: blue;}
+.Button{width: 150px; height: 30px; background-color: black; position: relative; color: white; text-align: center; padding-top: 10px; left: 725px; top: 350px;}
+.Button:hover{background-color: brown;}
