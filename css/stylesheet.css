@@ -1,4 +1,5 @@
 body{background-color: red;}
 h1{color: white; text-align: center;}
-p{color: green;}
-#Hub{background-color: grey; width: 750px; height: 500px;}
+.Description{color: white;}
+#Hub{background-color: grey; width: 1500px; height: 750px;}
+.Status{color: blue;}
