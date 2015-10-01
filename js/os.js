@@ -1,3 +1,8 @@
 // This is a demo of my OS running inside the CSS based Hub
+var StartOS = document.getElementById("Start-OS");
 
-// Setup screen
+StartOS.onclick = function VirtualHubOS()
+{
+StartOS.style.visibility = "hidden";
+
+};
