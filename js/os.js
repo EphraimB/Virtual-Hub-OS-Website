@@ -37,16 +37,22 @@ setupProgressStepTwoHolder.style.color = "green";
 
 var nextButtonTextHolder = document.createElement("div");
 
-var nextButtonText = document.createTextNode(">");
+var nextButtonText = document.createTextNode("Next");
 nextButtonTextHolder.appendChild(nextButtonText);
 Hub.appendChild(nextButtonTextHolder);
+nextButtonTextHolder.setAttribute("class", "Button");
+nextButtonTextHolder.setAttribute("id", "Next");
 nextButtonTextHolder.style.position = "relative";
 nextButtonTextHolder.style.left = "850px";
 nextButtonTextHolder.style.top = "300px";
-nextButtonTextHolder.style.fontSize = "50px";
+nextButtonTextHolder.style.width = "50px";
+nextButtonTextHolder.style.height = "30px";
 nextButtonTextHolder.style.color = "white";
+nextButtonTextHolder.style.backgroundColor = "black";
+nextButtonTextHolder.style.textAlign = "center";
+nextButtonTextHolder.style.paddingTop = "10px";
 
-var signUpTextHolder = document.createElement("p")
+var signUpTextHolder = document.createElement("p");
 
 var signUpText = document.createTextNode("Sign Up form");
 signUpTextHolder.appendChild(signUpText);
@@ -104,9 +110,17 @@ var ageInput = document.createElement("input");
 
 Hub.appendChild(ageInput);
 ageInput.setAttribute("type", "number");
+ageInput.setAttribute("min", "0");
 ageInput.style.position = "relative";
 ageInput.style.left = "550px";
 ageInput.style.top = "116px";
+
+var next = document.getElementById("Next");
+
+next.onclick = function setupPageTwo()
+{
+alert("Page two is under construction");
+};
 
 /* Text.appendChild(text);
 Hub.appendChild(Text);
