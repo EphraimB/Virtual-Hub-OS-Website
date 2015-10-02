@@ -4,12 +4,9 @@ var Hub = document.getElementById("Hub");
 
 StartOS.onclick = function VirtualHubOS()
 {
-StartOS.style.visibility = "hidden";
+StartOS.style.display = "none";
 
 // Setup OOBE
-
-
-var text = document.createTextNode("Pick a Wallpaper image:");
 
 // Sign up to a Virtual account
 var setupProgressStepOneHolder = document.createElement("div");
@@ -44,7 +41,7 @@ nextButtonTextHolder.setAttribute("class", "Button");
 nextButtonTextHolder.setAttribute("id", "Next");
 nextButtonTextHolder.style.position = "relative";
 nextButtonTextHolder.style.left = "850px";
-nextButtonTextHolder.style.top = "300px";
+nextButtonTextHolder.style.top = "275px";
 nextButtonTextHolder.style.width = "50px";
 nextButtonTextHolder.style.height = "30px";
 nextButtonTextHolder.style.color = "white";
@@ -119,7 +116,14 @@ var next = document.getElementById("Next");
 
 next.onclick = function setupPageTwo()
 {
-alert("Page two is under construction");
+firstNameTextHolder.style.display = "none";
+firstNameInput.style.display = "none";
+lastNameTextHolder.style.display = "none";
+lastNameInput.style.display = "none";
+ageTextHolder.style.display = "none";
+ageInput.style.display = "none";
+setupProgressStepOneHolder.style.fontWeight = "normal";
+setupProgressStepTwoHolder.style.fontWeight = "bold";
 };
 
 /* Text.appendChild(text);
