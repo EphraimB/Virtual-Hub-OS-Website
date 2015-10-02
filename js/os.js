@@ -42,7 +42,7 @@ nextButtonTextHolder.appendChild(nextButtonText);
 Hub.appendChild(nextButtonTextHolder);
 nextButtonTextHolder.style.position = "relative";
 nextButtonTextHolder.style.left = "850px";
-nextButtonTextHolder.style.top = "350px";
+nextButtonTextHolder.style.top = "300px";
 nextButtonTextHolder.style.fontSize = "50px";
 nextButtonTextHolder.style.color = "white";
 
@@ -53,7 +53,7 @@ signUpTextHolder.appendChild(signUpText);
 Hub.appendChild(signUpTextHolder);
 signUpTextHolder.style.position = "relative";
 signUpTextHolder.style.left = "600px";
-signUpTextHolder.style.top = "100px";
+signUpTextHolder.style.top = "0px";
 signUpTextHolder.style.fontWeight = "bold";
 signUpTextHolder.style.fontSize = "24px";
 
@@ -64,7 +64,7 @@ firstNameTextHolder.appendChild(firstNameText);
 Hub.appendChild(firstNameTextHolder);
 firstNameTextHolder.style.position = "relative";
 firstNameTextHolder.style.left = "450px";
-firstNameTextHolder.style.top = "200px";
+firstNameTextHolder.style.top = "100px";
 
 var firstNameInput = document.createElement("input");
 
@@ -72,7 +72,7 @@ Hub.appendChild(firstNameInput);
 firstNameInput.setAttribute("type", "text");
 firstNameInput.style.position = "relative";
 firstNameInput.style.left = "550px";
-firstNameInput.style.top = "166px";
+firstNameInput.style.top = "66px";
 
 var lastNameTextHolder = document.createElement("p");
 
@@ -81,7 +81,7 @@ lastNameTextHolder.appendChild(lastNameText);
 Hub.appendChild(lastNameTextHolder);
 lastNameTextHolder.style.position = "relative";
 lastNameTextHolder.style.left = "450px";
-lastNameTextHolder.style.top = "225px";
+lastNameTextHolder.style.top = "125px";
 
 var lastNameInput = document.createElement("input");
 
@@ -89,7 +89,7 @@ Hub.appendChild(lastNameInput);
 lastNameInput.setAttribute("type", "text");
 lastNameInput.style.position = "relative";
 lastNameInput.style.left = "550px";
-lastNameInput.style.top = "191px";
+lastNameInput.style.top = "91px";
 
 var ageTextHolder = document.createElement("p");
 
@@ -98,7 +98,7 @@ ageTextHolder.appendChild(ageText);
 Hub.appendChild(ageTextHolder);
 ageTextHolder.style.position = "relative";
 ageTextHolder.style.left = "450px";
-ageTextHolder.style.top = "250px";
+ageTextHolder.style.top = "150px";
 
 var ageInput = document.createElement("input");
 
@@ -106,7 +106,7 @@ Hub.appendChild(ageInput);
 ageInput.setAttribute("type", "number");
 ageInput.style.position = "relative";
 ageInput.style.left = "550px";
-ageInput.style.top = "216px";
+ageInput.style.top = "116px";
 
 /* Text.appendChild(text);
 Hub.appendChild(Text);
