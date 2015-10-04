@@ -89,15 +89,4 @@ setupProgressStepOneHolder.style.fontWeight = "normal";
 setupProgressStepTwoHolder.style.fontWeight = "bold";
 };
 
-/* Text.appendChild(text);
-Hub.appendChild(Text);
-Text.style.position = "relative";
-Text.style.left = "700px";
-Text.style.top = "325px";
-
-Hub.appendChild(Input);
-Input.setAttribute("type", "file");
-Input.style.position = "relative";
-Input.style.left = "675px";
-Input.style.top = "350px"; */
 };
