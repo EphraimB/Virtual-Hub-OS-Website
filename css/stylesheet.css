@@ -5,3 +5,16 @@ h1{color: white; text-align: center;}
 .Status{color: blue;}
 .Button{width: 150px; height: 30px; background-color: black; position: relative; color: white; text-align: center; padding-top: 10px; left: 45vw; top: 35vh;}
 .Button:hover{background-color: brown;}
+
+.OOBEHeader{position: relative; left: 40vw; top: 0vh; font-weight: bold; font-size: 24px;}
+.OOBEStepOne{position: relative; left: 35vw; top: 62vh; font-size: 20px; color: green; font-weight: bold;}
+.OOBEStepTwo{position: relative; left: 38vw; top: 58vh; font-size: 20px; color: green;}
+.OOBEFirstNameLabel{position: relative; left: 32vw; top: 5vh;}
+.OOBEFirstNameInput{position: relative; left: 40vw; top: 0vh;}
+.OOBELastNameLabel{position: relative; left: 32vw; top: 5vh;}
+.OOBELastNameInput{position: relative; left: 40vw; top: 0vh;}
+.OOBEAgeLabel{position: relative; left: 32vw; top: 5vh;}
+.OOBEAgeInput{position: relative; left: 40vw; top: 0vh;}
+
+.OOBENextButton{position: relative; left: 65vw; top: 28vh; width: 5vw; height: 3vh; color: white; background-color: black; text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+.OOBENextButton:hover{background-color: brown;}
