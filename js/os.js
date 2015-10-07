@@ -87,6 +87,20 @@ ageTextHolder.style.display = "none";
 ageInput.style.display = "none";
 setupProgressStepOneHolder.style.fontWeight = "normal";
 setupProgressStepTwoHolder.style.fontWeight = "bold";
+
+var backgroundColorTextHolder = document.createElement("p");
+
+var backgroundColorText = document.createTextNode("Choose background color:");
+backgroundColorTextHolder.appendChild(backgroundColorText);
+Hub.appendChild(backgroundColorTextHolder);
+backgroundColorTextHolder.setAttribute("class", "OOBEBackgroundColorText");
+
+var backgroundColorInput = document.createElement("input");
+
+Hub.appendChild(backgroundColorInput);
+backgroundColorInput.setAttribute("type", "color");
+backgroundColorInput.setAttribute("class", "OOBEBackgroundColorInput");
+
 };
 
 };
