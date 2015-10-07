@@ -1,26 +1,26 @@
-body{background-color: red; height: 100%;}
+body{background-color: red;}
 h1{color: white; text-align: center;}
 .Description{color: white;}
 #Hub{background-color: grey; width: 99vw; height: 68vh;}
 .Status{color: blue;}
-.Button{width: 150px; height: 30px; background-color: black; position: relative; color: white; text-align: center; padding-top: 10px; left: 45vw; top: 35vh;}
+.Button{width: 10%; height: auto; background-color: black; position: relative; color: white; text-align: center; padding-top: 1%; padding-bottom: 1%; left: 45%; top: 45%;}
 .Button:hover{background-color: brown;}
 
-.OOBEHeader{position: relative; left: 40vw; top: 0vh; font-weight: bold; font-size: 24px;}
-.OOBEStepOne{position: relative; left: 35vw; top: 62vh; font-size: 20px; color: green; font-weight: bold;}
-.OOBEStepTwo{position: relative; left: 38vw; top: 58vh; font-size: 20px; color: green;}
-.OOBEFirstNameLabel{position: relative; left: 32vw; top: 5vh;}
-.OOBEFirstNameInput{position: relative; left: 40vw; top: 0vh;}
-.OOBELastNameLabel{position: relative; left: 32vw; top: 5vh;}
-.OOBELastNameInput{position: relative; left: 40vw; top: 0vh;}
-.OOBEAgeLabel{position: relative; left: 32vw; top: 5vh;}
-.OOBEAgeInput{position: relative; left: 40vw; top: 0vh;}
+.OOBEHeader{position: relative; left: 40%; top: 0%; font-weight: bold; font-size: 24px;}
+.OOBEStepOne{position: relative; left: 39%; top: 90%; font-size: 20px; color: green; font-weight: bold;}
+.OOBEStepTwo{position: relative; left: 41%; top: 87%; font-size: 20px; color: green;}
+.OOBEFirstNameLabel{position: relative; left: 32%; top: 10%;}
+.OOBEFirstNameInput{position: relative; left: 40%; top: 5%;}
+.OOBELastNameLabel{position: relative; left: 32%; top: 10%;}
+.OOBELastNameInput{position: relative; left: 40%; top: 5%;}
+.OOBEAgeLabel{position: relative; left: 32%; top: 10%;}
+.OOBEAgeInput{position: relative; left: 40%; top: 5%;}
 
-.OOBENextButton{position: relative; left: 65vw; top: 28vh; width: 5vw; height: 3vh; color: white; background-color: black; text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+.OOBENextButton{position: relative; left: 65%; top: 45%; width: 10%; height: auto; color: white; background-color: black; text-align: center; padding-top: 1%; padding-bottom: 1%;}
 .OOBENextButton:hover{background-color: brown;}
 
-.OOBEUserPhotoText{position: relative; left: 25vw; top: 15vh;}
-.OOBEUserPhotoInput{position: relative; left: 40vw; top: 10vh;}
+.OOBEUserPhotoText{position: relative; left: 25%; top: 25%;}
+.OOBEUserPhotoInput{position: relative; left: 40%; top: 21%;}
 
-.OOBEBackgroundColorText{position: relative; left: 25vw; top: 15vh;}
-.OOBEBackgroundColorInput{position: relative; left: 40vw; top: 10vh;}
+.OOBEBackgroundColorText{position: relative; left: 25%; top: 15%;}
+.OOBEBackgroundColorInput{position: relative; left: 40%; top: 10%;}
