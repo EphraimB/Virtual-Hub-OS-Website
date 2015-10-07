@@ -9,6 +9,8 @@ h1{color: white; text-align: center;}
 .OOBEHeader{position: relative; left: 40%; top: 0%; font-weight: bold; font-size: 24px;}
 .OOBEStepOne{position: relative; left: 39%; top: 90%; font-size: 20px; color: green; font-weight: bold;}
 .OOBEStepTwo{position: relative; left: 41%; top: 87%; font-size: 20px; color: green;}
+.OOBEStepThree{position: relative; left: 43%; top: 84%; font-size: 20px; color: green;}
+
 .OOBEFirstNameLabel{position: relative; left: 32%; top: 10%;}
 .OOBEFirstNameInput{position: relative; left: 40%; top: 5%;}
 .OOBELastNameLabel{position: relative; left: 32%; top: 10%;}
@@ -21,6 +23,9 @@ h1{color: white; text-align: center;}
 
 .OOBEUserPhotoText{position: relative; left: 25%; top: 25%;}
 .OOBEUserPhotoInput{position: relative; left: 40%; top: 21%;}
+
+.OOBENextButtonTwo{position: relative; left: 65%; top: 45%; width: 10%; height: auto; color: white; background-color: black; text-align: center; padding-top: 1%; padding-bottom: 1%;}
+.OOBENextButtonTwo:hover{background-color: brown;}
 
 .OOBEBackgroundColorText{position: relative; left: 25%; top: 15%;}
 .OOBEBackgroundColorInput{position: relative; left: 40%; top: 10%;}

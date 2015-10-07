@@ -23,6 +23,13 @@ setupProgressStepTwoHolder.appendChild(setupProgressStepTwo);
 Hub.appendChild(setupProgressStepTwoHolder);
 setupProgressStepTwoHolder.setAttribute("class", "OOBEStepTwo");
 
+var setupProgressStepThreeHolder = document.createElement("div");
+
+var setupProgressStepThree = document.createTextNode("3");
+setupProgressStepThreeHolder.appendChild(setupProgressStepThree);
+Hub.appendChild(setupProgressStepThreeHolder);
+setupProgressStepThreeHolder.setAttribute("class", "OOBEStepThree");
+
 var nextButtonTextHolder = document.createElement("div");
 
 var nextButtonText = document.createTextNode("Next");
@@ -102,8 +109,22 @@ Hub.appendChild(userPhotoInput);
 userPhotoInput.setAttribute("type", "file");
 userPhotoInput.setAttribute("class", "OOBEUserPhotoInput");
 
-};
-/* var backgroundColorTextHolder = document.createElement("p");
+var nextButtonTwoTextHolder = document.createElement("div");
+
+var nextButtonTwoText = document.createTextNode("Next");
+nextButtonTwoTextHolder.appendChild(nextButtonTwoText);
+Hub.appendChild(nextButtonTwoTextHolder);
+nextButtonTwoTextHolder.setAttribute("class", "OOBENextButtonTwo");
+
+nextButtonTwoTextHolder.onclick = function setupPageThree()
+{
+userPhotoTextHolder.style.display = "none";
+userPhotoInput.style.display = "none";
+nextButtonTwoTextHolder.style.display = "none";
+setupProgressStepTwoHolder.style.fontWeight = "normal";
+setupProgressStepThreeHolder.style.fontWeight = "bold";
+
+var backgroundColorTextHolder = document.createElement("p");
 
 var backgroundColorText = document.createTextNode("Choose background color:");
 backgroundColorTextHolder.appendChild(backgroundColorText);
@@ -114,5 +135,9 @@ var backgroundColorInput = document.createElement("input");
 
 Hub.appendChild(backgroundColorInput);
 backgroundColorInput.setAttribute("type", "color");
-backgroundColorInput.setAttribute("class", "OOBEBackgroundColorInput"); */
+backgroundColorInput.setAttribute("class", "OOBEBackgroundColorInput");
+};
+
+};
+
 };
