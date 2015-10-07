@@ -88,7 +88,21 @@ ageInput.style.display = "none";
 setupProgressStepOneHolder.style.fontWeight = "normal";
 setupProgressStepTwoHolder.style.fontWeight = "bold";
 
-var backgroundColorTextHolder = document.createElement("p");
+var userPhotoTextHolder = document.createElement("p");
+
+var userPhotoText = document.createTextNode("Upload a photo of yourself:");
+userPhotoTextHolder.appendChild(userPhotoText);
+Hub.appendChild(userPhotoTextHolder);
+userPhotoTextHolder.setAttribute("class", "OOBEUserPhotoText");
+
+var userPhotoInput = document.createElement("input");
+
+Hub.appendChild(userPhotoInput);
+userPhotoInput.setAttribute("type", "file");
+userPhotoInput.setAttribute("class", "OOBEUserPhotoInput");
+
+};
+/* var backgroundColorTextHolder = document.createElement("p");
 
 var backgroundColorText = document.createTextNode("Choose background color:");
 backgroundColorTextHolder.appendChild(backgroundColorText);
@@ -99,8 +113,5 @@ var backgroundColorInput = document.createElement("input");
 
 Hub.appendChild(backgroundColorInput);
 backgroundColorInput.setAttribute("type", "color");
-backgroundColorInput.setAttribute("class", "OOBEBackgroundColorInput");
-
-};
-
+backgroundColorInput.setAttribute("class", "OOBEBackgroundColorInput"); */
 };
