@@ -85,6 +85,7 @@ lastNameTextHolder.style.display = "none";
 lastNameInput.style.display = "none";
 ageTextHolder.style.display = "none";
 ageInput.style.display = "none";
+nextButtonTextHolder.style.display = "none";
 setupProgressStepOneHolder.style.fontWeight = "normal";
 setupProgressStepTwoHolder.style.fontWeight = "bold";
 

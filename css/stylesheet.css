@@ -19,5 +19,8 @@ h1{color: white; text-align: center;}
 .OOBENextButton{position: relative; left: 65vw; top: 28vh; width: 5vw; height: 3vh; color: white; background-color: black; text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
 .OOBENextButton:hover{background-color: brown;}
 
+.OOBEUserPhotoText{position: relative; left: 25vw; top: 15vh;}
+.OOBEUserPhotoInput{position: relative; left: 40vw; top: 10vh;}
+
 .OOBEBackgroundColorText{position: relative; left: 25vw; top: 15vh;}
 .OOBEBackgroundColorInput{position: relative; left: 40vw; top: 10vh;}
