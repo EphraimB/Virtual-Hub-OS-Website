@@ -136,6 +136,34 @@ var backgroundColorInput = document.createElement("input");
 Hub.appendChild(backgroundColorInput);
 backgroundColorInput.setAttribute("type", "color");
 backgroundColorInput.setAttribute("class", "OOBEBackgroundColorInput");
+
+var nextButtonThreeTextHolder = document.createElement("div");
+
+var nextButtonThreeText = document.createTextNode("Next");
+nextButtonThreeTextHolder.appendChild(nextButtonThreeText);
+Hub.appendChild(nextButtonThreeTextHolder);
+nextButtonThreeTextHolder.setAttribute("class", "OOBENextButtonThree");
+
+nextButtonThreeTextHolder.onclick = function setupResults()
+{
+backgroundColorTextHolder.style.display = "none";
+backgroundColorInput.style.display = "none";
+nextButtonThreeTextHolder.style.display = "none";
+signUpTextHolder.style.display = "none";
+setupProgressStepThreeHolder.style.fontWeight = "normal";
+setupProgressStepOneHolder.style.display = "none";
+setupProgressStepTwoHolder.style.display = "none";
+setupProgressStepThreeHolder.style.display = "none";
+
+var resultsTextHolder = document.createElement("p");
+
+Hub.appendChild(resultsTextHolder);
+resultsTextHolder.innerHTML = "Hi, " + firstNameInput.value + " " + lastNameInput.value;
+resultsTextHolder.setAttribute("class", "OOBESetupResults");
+
+Hub.style.backgroundColor = backgroundColorInput.value;
+};
+
 };
 
 };

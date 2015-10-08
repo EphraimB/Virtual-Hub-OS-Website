@@ -29,3 +29,8 @@ h1{color: white; text-align: center;}
 
 .OOBEBackgroundColorText{position: relative; left: 25%; top: 15%;}
 .OOBEBackgroundColorInput{position: relative; left: 40%; top: 10%;}
+
+.OOBENextButtonThree{position: relative; left: 65%; top: 45%; width: 10%; height: auto; color: white; background-color: black; text-align: center; padding-top: 1%; padding-bottom: 1%;}
+.OOBENextButtonThree:hover{background-color: brown;}
+
+.OOBESetupResults{position: relative; left: 35%; top: 25%; font-size: 16px; color: green;}
