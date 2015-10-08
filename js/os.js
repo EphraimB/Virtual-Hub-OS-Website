@@ -162,6 +162,15 @@ resultsTextHolder.innerHTML = "Hi, " + firstNameInput.value + " " + lastNameInpu
 resultsTextHolder.setAttribute("class", "OOBESetupResults");
 
 Hub.style.backgroundColor = backgroundColorInput.value;
+
+var userPhoto = document.createElement("img");
+
+Hub.appendChild(userPhoto);
+userPhoto.setAttribute("src", userPhotoInput.value);
+userPhoto.setAttribute("alt", "User photo");
+userPhoto.setAttribute("width", "100");
+userPhoto.setAttribute("height", "100");
+userPhoto.setAttribute("class", "userPhoto");
 };
 
 };
