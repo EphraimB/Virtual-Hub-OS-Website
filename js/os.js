@@ -87,17 +87,33 @@ ageInput.setAttribute("class", "OOBEAgeInput");
 nextButtonTextHolder.onclick = function validate()
 {
 
-if(firstNameInput.value.length == 0 && lastNameInput.value.length > 0)
+if(firstNameInput.value.length == 0 && lastNameInput.value.length > 0 && ageInput.value.length > 0)
 {
 alert("Please enter your First Name!");
 }
-else if(firstNameInput.value.length > 0 && lastNameInput.value.length == 0)
+else if(firstNameInput.value.length > 0 && lastNameInput.value.length == 0 && ageInput.value.length > 0)
 {
 alert("Please enter your Last Name!");
 }
-else if(firstNameInput.value.length == 0 && lastNameInput.value.length == 0)
+else if(firstNameInput.value.length == 0 && lastNameInput.value.length == 0 && ageInput.value.length > 0)
 {
 alert("Please enter your both your First and Last Name!");
+}
+else if(firstNameInput.value.length > 0 && lastNameInput.value.length > 0 && ageInput.value.length == 0)
+{
+alert("Please enter your Age!");
+}
+else if(firstNameInput.value.length == 0 && lastNameInput.value.length > 0 && ageInput.value.length == 0)
+{
+alert("Please enter your First Name and Age!");
+}
+else if(firstNameInput.value.length > 0 && lastNameInput.value.length == 0 && ageInput.value.length == 0)
+{
+alert("Please enter your Last Name and Age!");
+}
+else if(firstNameInput.value.length == 0 && lastNameInput.value.length == 0 && ageInput.value.length == 0)
+{
+alert("Please enter your First Name, Last Name, and Age!");
 }
 else
 {
