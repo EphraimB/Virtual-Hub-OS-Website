@@ -120,7 +120,7 @@ else
 setupPageTwo();
 }
 
-}
+};
 
 function setupPageTwo()
 {
@@ -154,7 +154,21 @@ nextButtonTwoTextHolder.appendChild(nextButtonTwoText);
 Hub.appendChild(nextButtonTwoTextHolder);
 nextButtonTwoTextHolder.setAttribute("class", "OOBENextButtonTwo");
 
-nextButtonTwoTextHolder.onclick = function setupPageThree()
+nextButtonTwoTextHolder.onclick = function validateTwo()
+{
+
+if(userPhotoInput.value.length == 0)
+{
+alert("Please upload a Photo of yourself!");
+}
+else
+{
+setupPageThree();
+}
+
+};
+
+function setupPageThree()
 {
 userPhotoTextHolder.style.display = "none";
 userPhotoInput.style.display = "none";
