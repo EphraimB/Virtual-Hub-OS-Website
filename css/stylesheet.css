@@ -1,7 +1,7 @@
 body{background-color: red;}
 h1{color: white; text-align: center;}
 .Description{color: white;}
-#Hub{position: relative; background-color: grey; width: 99vw; height: 68vh; cursor: url(../icons/cursor.cur);}
+#Hub{position: relative; background-color: grey; width: 99vw; height: 68vh; cursor: url(../icons/cursor.cur), auto;}
 .Status{color: blue;}
 .Button{width: auto; height: auto; background-color: black; position: absolute; color: white; text-align: center; padding-top: 1%; padding-bottom: 1%; left: 45%; top: 45%;}
 .Button:hover{background-color: brown;}
