@@ -35,3 +35,5 @@ h1{color: white; text-align: center;}
 
 .OOBESetupResults{position: relative; left: 35%; top: 25%; font-size: 16px; color: green;}
 .userPhoto(position: relative; left: 45%; top: 35%; border-radius: 5px;}
+
+.GotoLockscreenButton{position: relative; left: 45%; top: 65%; width: 30%; height: auto; color: white; background-color: black; text-align: center; padding-top: 1%; padding-bottom: 1%;}

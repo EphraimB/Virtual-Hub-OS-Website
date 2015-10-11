@@ -247,6 +247,15 @@ userPhoto.setAttribute("alt", "User photo");
 userPhoto.setAttribute("width", "100");
 userPhoto.setAttribute("height", "100");
 userPhoto.setAttribute("class", "userPhoto");
+
+var gotoLockscreenButtonTextHolder = document.createElement("div");
+
+var gotoLockscreenButtonText = document.createTextNode("Goto Lockscreen");
+gotoLockscreenButtonTextHolder.appendChild(gotoLockscreenButtonText);
+Hub.appendChild(gotoLockscreenButtonTextHolder);
+gotoLockscreenButtonTextHolder.setAttribute("class", "GotoLockscreenButton");
+
+
 };
 
 };
