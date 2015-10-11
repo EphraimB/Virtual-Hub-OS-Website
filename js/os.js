@@ -131,10 +131,34 @@ backgroundColorTextHolder.appendChild(backgroundColorText);
 Hub.appendChild(backgroundColorTextHolder);
 backgroundColorTextHolder.setAttribute("class", "OOBEBackgroundColorText");
 
-var backgroundColorInput = document.createElement("input");
+var backgroundColorInput = document.createElement("select");
 
 Hub.appendChild(backgroundColorInput);
-backgroundColorInput.setAttribute("type", "color");
+
+var purpleOption = document.createElement("option");
+var purpleOptionText = document.createTextNode("purple");
+
+purpleOption.appendChild(purpleOptionText);
+backgroundColorInput.appendChild(purpleOption);
+
+var blueOption = document.createElement("option");
+var blueOptionText = document.createTextNode("blue");
+
+blueOption.appendChild(blueOptionText);
+backgroundColorInput.appendChild(blueOption);
+
+var yellowOption = document.createElement("option");
+var yellowOptionText = document.createTextNode("yellow");
+
+yellowOption.appendChild(yellowOptionText);
+backgroundColorInput.appendChild(yellowOption);
+
+var orangeOption = document.createElement("option");
+var orangeOptionText = document.createTextNode("orange");
+
+orangeOption.appendChild(orangeOptionText);
+backgroundColorInput.appendChild(orangeOption);
+
 backgroundColorInput.setAttribute("class", "OOBEBackgroundColorInput");
 
 var nextButtonThreeTextHolder = document.createElement("div");
