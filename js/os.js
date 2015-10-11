@@ -30,19 +30,19 @@ setupProgressStepThreeHolder.appendChild(setupProgressStepThree);
 Hub.appendChild(setupProgressStepThreeHolder);
 setupProgressStepThreeHolder.setAttribute("class", "OOBEStepThree");
 
-var nextButtonTextHolder = document.createElement("div");
-
-var nextButtonText = document.createTextNode("Next");
-nextButtonTextHolder.appendChild(nextButtonText);
-Hub.appendChild(nextButtonTextHolder);
-nextButtonTextHolder.setAttribute("class", "OOBENextButton");
-
 var signUpTextHolder = document.createElement("p");
 
 var signUpText = document.createTextNode("Sign Up form");
 signUpTextHolder.appendChild(signUpText);
 Hub.appendChild(signUpTextHolder);
 signUpTextHolder.setAttribute("class", "OOBEHeader");
+
+var nextButtonTextHolder = document.createElement("div");
+
+var nextButtonText = document.createTextNode("Next");
+nextButtonTextHolder.appendChild(nextButtonText);
+Hub.appendChild(nextButtonTextHolder);
+nextButtonTextHolder.setAttribute("class", "OOBENextButton");
 
 var firstNameTextHolder = document.createElement("p");
 
@@ -84,7 +84,21 @@ ageInput.setAttribute("type", "number");
 ageInput.setAttribute("min", "0");
 ageInput.setAttribute("class", "OOBEAgeInput");
 
-nextButtonTextHolder.onclick = function setupPageTwo()
+nextButtonTextHolder.onclick = function validate()
+{
+
+if(firstNameInput.value.length == 0)
+{
+alert("Please enter your First Name!");
+}
+else
+{
+setupPageTwo();
+}
+
+}
+
+function setupPageTwo()
 {
 firstNameTextHolder.style.display = "none";
 firstNameInput.style.display = "none";
