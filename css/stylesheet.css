@@ -12,7 +12,7 @@ h1{color: white; text-align: center;}
 .OOBEStepThree{position: absolute; left: 43%; bottom: 10%; font-size: 20px; color: green;}
 
 .OOBEFirstNameLabel{position: absolute; left: 25%; top: 30%;}
-.OOBEFirstNameInput{position: absolute; left: 35%; top: 30%;}
+.OOBEFirstNameInput{position: absolute; left: 35%; top: 30%; cursor: url(../icons/textCursor.cur), auto;}
 .OOBELastNameLabel{position: absolute; left: 25%; top: 45%;}
 .OOBELastNameInput{position: absolute; left: 35%; top: 45%;}
 .OOBEAgeLabel{position: absolute; left: 25%; top: 60%;}
