@@ -14,9 +14,9 @@ h1{color: white; text-align: center;}
 .OOBEFirstNameLabel{position: absolute; left: 25%; top: 30%;}
 .OOBEFirstNameInput{position: absolute; left: 35%; top: 30%; cursor: url(../icons/textCursor.cur), auto;}
 .OOBELastNameLabel{position: absolute; left: 25%; top: 45%;}
-.OOBELastNameInput{position: absolute; left: 35%; top: 45%;}
+.OOBELastNameInput{position: absolute; left: 35%; top: 45%; cursor: url(../icons/textCursor.cur), auto;}
 .OOBEAgeLabel{position: absolute; left: 25%; top: 60%;}
-.OOBEAgeInput{position: absolute; left: 35%; top: 60%;}
+.OOBEAgeInput{position: absolute; left: 35%; top: 60%; cursor: url(../icons/textCursor.cur), auto;}
 
 .OOBENextButton{position: absolute; left: 65%; top: 45%; width: auto; height: auto; color: white; background-color: black; text-align: center; padding-top: 1%; padding-bottom: 1%;}
 .OOBENextButton:hover{background-color: brown;}
