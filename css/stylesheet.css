@@ -3,7 +3,7 @@ h1{color: white; text-align: center;}
 .Description{color: white;}
 #Hub{position: absolute; background-color: grey; width: 99%; height: 68%; cursor: url(../icons/cursor.cur), auto;}
 .Status{position: relative; color: blue;}
-.Button{width: auto; height: auto; background-color: black; position: absolute; color: white; text-align: center; padding-top: 1%; padding-bottom: 1%; left: 45%; top: 45%;}
+.Button{width: auto; height: auto; background-color: black; position: absolute; color: white; text-align: center; vertical-align: middle; left: 45%; top: 45%;}
 .Button:hover{background-color: brown;}
 
 .OOBEHeader{position: absolute; left: 40%; top: 15%; font-weight: bold; font-size: 24pt;}
@@ -18,23 +18,23 @@ h1{color: white; text-align: center;}
 .OOBEAgeLabel{position: absolute; left: 25%; top: 60%;}
 .OOBEAgeInput{position: absolute; left: 35%; top: 60%; cursor: url(../icons/textCursor.cur), auto;}
 
-.OOBENextButton{position: absolute; left: 65%; top: 45%; width: auto; height: auto; color: white; background-color: black; text-align: center; padding-top: 1%; padding-bottom: 1%;}
+.OOBENextButton{position: absolute; left: 65%; top: 45%; width: auto; height: auto; color: white; background-color: black; text-align: center; vertical-align: middle;}
 .OOBENextButton:hover{background-color: brown;}
 
 .OOBEUserPhotoText{position: absolute; left: 25%; top: 30%;}
 .OOBEUserPhotoInput{position: absolute; left: 35%; top: 30%;}
 
-.OOBENextButtonTwo{position: absolute; left: 65%; top: 45%; width: auto; height: auto; color: white; background-color: black; text-align: center; padding-top: 1%; padding-bottom: 1%;}
+.OOBENextButtonTwo{position: absolute; left: 65%; top: 45%; width: auto; height: auto; color: white; background-color: black; text-align: center; vertical-align: middle;}
 .OOBENextButtonTwo:hover{background-color: brown;}
 
 .OOBEBackgroundColorText{position: absolute; left: 25%; top: 30%;}
 .OOBEBackgroundColorInput{position: absolute; left: 40%; top: 30%;}
 
-.OOBENextButtonThree{position: absolute; left: 65%; top: 45%; width: auto; height: auto; color: white; background-color: black; text-align: center; padding-top: 1%; padding-bottom: 1%;}
+.OOBENextButtonThree{position: absolute; left: 65%; top: 45%; width: auto; height: auto; color: white; background-color: black; text-align: center; vertical-align: middle;}
 .OOBENextButtonThree:hover{background-color: brown;}
 
 .OOBESetupResults{position: absolute; left: 35%; top: 25%; font-size: 16pt; color: green;}
 .userPhoto{position: absolute; left: 45%; top: 35%; border-radius: 5px;}
 
-.GotoLockscreenButton{position: absolute; left: 35%; top: 65%; width: auto; height: auto; color: white; background-color: black; text-align: center; padding-top: 1%; padding-bottom: 1%;}
+.GotoLockscreenButton{position: absolute; left: 35%; top: 65%; width: auto; height: auto; color: white; background-color: black; text-align: center; vertical-align: middle;}
 .GotoLockscreenButton:hover{background-color: brown;}
