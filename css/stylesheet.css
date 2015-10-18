@@ -1,8 +1,8 @@
 body{background-color: red;}
 h1{color: white; text-align: center;}
 .Description{color: white;}
-#Hub{position: absolute; background-color: grey; width: 99%; height: 68%; cursor: url(../icons/cursor.cur), auto;}
 .Status{position: relative; color: blue;}
+#Hub{position: relative; background-color: grey; width: 99vw; height: 68vh; cursor: url(../icons/cursor.cur), auto;}
 .Button{width: auto; height: auto; background-color: black; position: absolute; color: white; text-align: center; vertical-align: middle; left: 45%; top: 45%;}
 .Button:hover{background-color: brown;}
 
